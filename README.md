@@ -1,9 +1,8 @@
 # ox_target
 
-![](https://img.shields.io/github/downloads/communityox/ox_target/total?logo=github)
-![](https://img.shields.io/github/downloads/communityox/ox_target/latest/total?logo=github)
-![](https://img.shields.io/github/contributors/communityox/ox_target?logo=github)
-![](https://img.shields.io/github/v/release/communityox/ox_target?logo=github) 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28d05c3c-f207-4754-8212-bda48cdfb0d0" />
+
+<img width="594" height="430" alt="image" src="https://github.com/user-attachments/assets/8c68765e-762e-46c6-a5d5-0991404fa1d9" />
 
 
 A performant and flexible standalone "third-eye" targeting resource, with additional functionality for supported frameworks.

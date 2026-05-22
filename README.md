@@ -4,7 +4,6 @@
 
 <img width="594" height="430" alt="image" src="https://github.com/user-attachments/assets/8c68765e-762e-46c6-a5d5-0991404fa1d9" />
 
-**ox_target dui redesign and settings menu**
 **ENTITY INTERACTION SYSTEM & SETTINGS MENU**
 ==================================================
 

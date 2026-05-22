@@ -4,26 +4,27 @@
 
 <img width="594" height="430" alt="image" src="https://github.com/user-attachments/assets/8c68765e-762e-46c6-a5d5-0991404fa1d9" />
 
+**ox_target dui redesign and settings menu**
+**ENTITY INTERACTION SYSTEM & SETTINGS MENU**
+==================================================
 
-A performant and flexible standalone "third-eye" targeting resource, with additional functionality for supported frameworks.
+**3D World-Space UI Features**
+* **3D Floating Menu:** The interaction menu floats directly above the targeted entity in 3D world space — it follows the entity every frame, not fixed to a screen corner.
+* **Dynamic Connecting Line:** A 3D connecting line is drawn from the entity to the card using native `DrawLine`. Line style is fully configurable: L-Shape, Straight, or Hidden.
+* **Hit Point Marker:** A glowing dot marker is rendered at the exact hit point on the entity.
 
-ox_target is the successor to qtarget, which was a mostly-compatible fork of bt-target.
-To improve many design flaws, ox_target has been written from scratch and drops support for bt-target/qtarget standards, though partial compatibility is being implemented where possible.
+==================================================
 
+**In-Game Settings Menu (`/targetsettings`)**
+Opened in-game to allow real-time UI customization:
 
-## 📚 Documentation
+* **Accent Color:** Choose from preset colors; syncs live to the 3D connecting line color.
+* **UI Scale:** XS / M / XL sizing options.
+* **Transparency:** Card background opacity slider.
+* **Theme:** Select between Cheat, Glass, or Neo aesthetics.
+* **Corner Rounding:** Smooth border-radius slider.
+* **Line Style:** L-Shape / Straight / Hidden.
+* **Font Size & Weight:** Typography sliders for custom scaling.
+* **Center Cursor:** Toggle the crosshair dot on/off.
 
-https://coxdocs.dev/ox_target
-
-## 💾 Download
-
-https://github.com/communityox/ox_target/releases/latest/download/ox_target.zip
-
-## ✨ Features
-
-- Improved entity and world collision than its predecessor.
-- Improved error handling when running external code.
-- Menus for nested target options.
-- Partial compatibility for qtarget (the thing qb-target is based on, I made the original idiots).
-- Registering options no longer overrides existing options.
-- Groups and items checking for supported frameworks.
+**Persistence:** All settings save automatically and persist between sessions.

@@ -445,7 +445,7 @@ RegisterNUICallback('select', function(data, cb)
     local zone = data[3] and nearbyZones[data[3]]
 
     ---@type OxTargetOption?
-    local option = zone and zone.options[data[2]] or options[data[1]][data[2]]
+    local option = zone and zone.options[data[2]] or (options[data[1]] and options[data[1]][data[2]])
 
     if option then
         if option.openMenu then

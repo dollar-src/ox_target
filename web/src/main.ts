@@ -88,7 +88,7 @@ window.addEventListener("message", (event: MessageEvent<NuiMessageData>) => {
 
         case "setWorldTarget":
             closeAllMenus();
-            const worldOptions = (data.options || []).map((opt: any) => ({ type: opt.type, data: opt, id: opt.id }));
+            const worldOptions = (data.options || []).map((opt: any) => ({ type: opt.type, data: opt, id: opt.id, zoneId: opt.zoneId ?? null }));
             renderMenu(worldOptions);
             return;
 

@@ -11,7 +11,7 @@ An advanced, modern 3D World-Space Entity Interaction System & In-Game Settings 
 
 ---
 
-## Key Features
+## Features
 
 ### 3D World-Space UI
 * **3D Floating Menu:** The interaction UI floats directly above targeted entities in 3D world space, dynamically updating position frame-by-frame.
@@ -22,7 +22,7 @@ An advanced, modern 3D World-Space Entity Interaction System & In-Game Settings 
 
 ## In-Game Settings Menu (/targetsettings)
 
-Players can customize their UI experience in real-time using the /targetsettings command.
+Players can customize their UI experience in real-time using the `/targetsettings` command.
 
 * **Accent Color:** Choose from color presets with real-time sync to the 3D connecting line.
 * **UI Scale:** Flexible scaling options (XS, M, XL).
@@ -37,9 +37,43 @@ Players can customize their UI experience in real-time using the /targetsettings
 
 ---
 
-## Requirements & Installation
+## Development & Build Instructions
 
-1. Ensure you have ox_lib installed on your server.
-2. Download or clone this repository into your resources folder:
+If you are modifying the NUI (UI) source code, follow these steps to build the assets:
+
+### Prerequisites
+* Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Setup & Compilation
+
+1. Navigate to the web folder inside the resource directory:
    ```bash
-   git clone [https://github.com/dollar-src/ox_target.git](https://github.com/dollar-src/ox_target.git)
+   cd web
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+3. **Development Mode (Live Reloading):**  
+   Run this during UI development to preview changes in real time:
+   ```bash
+   npm run dev
+   ```
+
+4. **Production Build:**  
+   Once you've finished making changes, build the production-ready UI files:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## Installation
+
+1. Ensure `ox_lib` is installed and running on your server.
+2. Download or clone this repository into your `resources` folder:
+   ```bash
+   git clone https://github.com/dollar-src/ox_target.git
+   ```
